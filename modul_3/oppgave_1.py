@@ -16,7 +16,7 @@ print("Høyde:", høyde)
 print("Alder:", alder)
 print("Navn:", navn)
 
-print(type(navn))
+print(type(navn)) 
 print(type(alder))
 print(type(høyde))
 print(type(er_student))
