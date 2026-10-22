@@ -14,7 +14,6 @@ høyde = input("Hvor høy er du? ")
 høyde = float(høyde)
 print (høyde)
 
-
 #Hva svarte type() på alderen før du brukte int()? Hvorfor tror du input() gir deg akkurat denne datatypen?
 #Den svarte med str. Jeg tror det er siden input tar svar fra tastatur som er tekst
 

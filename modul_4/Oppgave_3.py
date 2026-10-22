@@ -3,6 +3,8 @@ poeng = int(poeng)
 
 if poeng > 100:
     print("Ugyldig poengsum")
+elif poeng < 0:
+    print ("Ugyldig pengsum")
 elif poeng >= 90: 
     print("A")
 elif poeng >= 80: 
@@ -13,10 +15,8 @@ elif poeng >= 50:
     print ("D")
 elif poeng >= 40: 
     print ("E")
-elif poeng < 40:
+else: 
     print ("F")
-else:
-    print ("Ugyldig poengsum")
 
 #Test programmet med 95, 72, 40 og 12. Skriv en kommentar med hva du forventer før du kjører.
 #95=A, 72=C, 40=E, 12=F
@@ -31,4 +31,4 @@ else:
 #Fordi om poengsummen oppfyller kravet for A sjekker den aldri lenger ned i if statementet
 
 #Når kjører else-delen?
-#Når alle andre ledd ikke har kjørt
+#Når alle andre ledd ikke blitt oppfylt

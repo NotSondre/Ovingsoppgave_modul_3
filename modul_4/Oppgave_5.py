@@ -7,8 +7,7 @@ if svar == riktig_svar:
 else:
     print("Feil, svaret var", riktig_svar)
 
-alder = input("Hvor gammel er du? ")
-alder = int(alder)
+alder = int(input("Hvor gammel er du? "))
 if alder == 18:
     print("Du er akkurat myndig!")
 else:

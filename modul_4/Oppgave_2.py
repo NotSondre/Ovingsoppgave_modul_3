@@ -1,14 +1,15 @@
 aldersgrense = 18
 
 #Vil få at man ikke er gammel nok
-alder = 17
+#alder = 17
 
 #Vil få man er gammel nok
-alder = 18
+#alder = 18
 
 #Vil få man er gammel nok
-alder = 19
+#alder = 19
 
+alder = int(input("Alder: "))
 if alder > aldersgrense:
     print(f"Du er {alder} år, og er gammel nok")
 else:
