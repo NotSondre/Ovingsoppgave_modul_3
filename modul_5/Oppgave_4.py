@@ -1,21 +1,20 @@
 def finn_karakter (poeng: int) -> str:
         if poeng > 100:
              return ("Ugyldig poengsum")
-        if poeng < 0:
+        elif poeng < 0:
              return ("Ugyldig pengsum")
-        if poeng >= 90: 
+        elif poeng >= 90: 
             return ("A")
-        if poeng >= 80:
+        elif poeng >= 80:
             return ("B")
-        if poeng >= 60:
+        elif poeng >= 60:
             return ("C")
-        if poeng >= 50:
+        elif poeng >= 50:
             return ("D")
-        if poeng >= 40:
+        elif poeng >= 40:
             return ("E")
         else:
             return ("F")
-
 
 def skriv_resultat(navn: str, karakter: str) -> None:
     print(f"Navn: {navn}, Karakter: {karakter}")
@@ -31,7 +30,6 @@ def doble(tall: int) -> int:
 
 print(doble("5"))
 
-#--------------------------------------------------
 
 brus = 24.90
 smørbrød = 45
