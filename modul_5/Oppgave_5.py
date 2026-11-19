@@ -28,7 +28,8 @@ def legg_til_poeng(poeng: int) -> int:
 
 
 def trekk_fra_poeng(poeng: int, antall: int) -> int:
-    return poeng - antall
+    return poeng + antall
+
 
 poeng = 0
 antall = 5
