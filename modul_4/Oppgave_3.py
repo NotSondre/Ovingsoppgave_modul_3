@@ -3,17 +3,17 @@ poeng = int(poeng)
 
 if poeng > 100:
     print("Ugyldig poengsum")
-elif poeng < 0:
+if poeng < 0:
     print ("Ugyldig pengsum")
-elif poeng >= 90: 
+if poeng >= 90: 
     print("A")
-elif poeng >= 80: 
+if poeng >= 80: 
     print("B")
-elif poeng >= 60: 
+if poeng >= 60: 
     print ("C")
-elif poeng >= 50: 
+if poeng >= 50: 
     print ("D")
-elif poeng >= 40: 
+if poeng >= 40: 
     print ("E")
 else: 
     print ("F")
